@@ -4,28 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>petstoreSwagger</groupId>
-    <artifactId>petstoreSwagger</artifactId>
+    <groupId>stackExchange</groupId>
+    <artifactId>stackExchange</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-
-        <!-- webdriver
-            https://www.seleniumhq.org/download/maven.jsp
-         -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-        </dependency>
-
-        <!--
-            https://github.com/SeleniumHQ/htmlunit-driver
-        -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>htmlunit-driver</artifactId>
-            <version>2.33.3</version>
-        </dependency>
 
         <!-- rest assured -->
         <dependency>
@@ -33,15 +15,6 @@
             <artifactId>rest-assured</artifactId>
             <version>3.2.0</version>
         </dependency>
-
-        <!-- JSOUP -->
-        <dependency>
-            <!-- jsoup HTML parser library @ http://jsoup.org/ -->
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.11.2</version>
-        </dependency>
-
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
@@ -57,6 +30,16 @@
             <artifactId>json-schema-core</artifactId>
             <version>1.2.5</version>
         </dependency>
+
+        <!-- JSOUP -->
+        <dependency>
+            <!-- jsoup HTML parser library @ http://jsoup.org/ -->
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.2</version>
+        </dependency>
+
+
         <!-- Hamcrest
             http://hamcrest.org/JavaHamcrest/javadoc/
         -->
@@ -71,60 +54,30 @@
         <!-- GSon JSON Parsing
             https://github.com/google/gson
         -->
-
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.5</version>
         </dependency>
 
+    <!-- junit test and compile -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>compile</scope>
+    </dependency>
 
-        <!-- Cucumber
-
-        - https://cucumber.io/docs
-        - https://cucumber.io/docs/reference/jvm#java
-        - https://cucumber.io/docs/reference/jvm#running-cucumber
-
-        -->
-
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>4.2.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>4.2.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-        <!-- To read excel for test data -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>3.9</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>compile</scope>
-        </dependency>
-
-    </dependencies>
+</dependencies>
 
     <!-- This basically says the source requires at least Java 1.8
-and use a compiler that outputs Java 1.8 -->
+    and use a compiler that outputs Java 1.8 -->
     <build>
         <plugins>
             <plugin>

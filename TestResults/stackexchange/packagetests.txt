@@ -23,36 +23,56 @@ apiURL :https://api.stackexchange.com/docs/comments#order=desc&sort=creation&fil
 Actual StatusCode   : 200
 Expected StatusCode : 200
 -------------------------------------------------------------------
+Random Integer : 6
+NumberOfIDs :7
+Random Integer : 14
+searchIDs :ids=14
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=14&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Random Integer : 19
+searchIDs :ids=19
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=19&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
 Random Integer : 3
-NumberOfIDs :4
-Random Integer : 96
-searchIDs :ids=96
+searchIDs :ids=3
 stackExchangeURL : https://api.stackexchange.com/docs
-apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=96&filter=default&site=stackoverflow&run=true
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=3&filter=default&site=stackoverflow&run=true
 Actual StatusCode   : 200
 Expected StatusCode : 200
 -------------------------------------------------------------------
-Random Integer : 67
-searchIDs :ids=67
+Random Integer : 38
+searchIDs :ids=38
 stackExchangeURL : https://api.stackexchange.com/docs
-apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=67&filter=default&site=stackoverflow&run=true
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=38&filter=default&site=stackoverflow&run=true
 Actual StatusCode   : 200
 Expected StatusCode : 200
 -------------------------------------------------------------------
-Random Integer : 52
-searchIDs :ids=52
+Random Integer : 98
+searchIDs :ids=98
 stackExchangeURL : https://api.stackexchange.com/docs
-apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=52&filter=default&site=stackoverflow&run=true
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=98&filter=default&site=stackoverflow&run=true
 Actual StatusCode   : 200
 Expected StatusCode : 200
 -------------------------------------------------------------------
-Random Integer : 1
-NumberOfIDs :3
-Random Integer : 15
-Random Integer : 87
-searchIDs :ids=15%3B87
+Random Integer : 19
+searchIDs :ids=19
 stackExchangeURL : https://api.stackexchange.com/docs
-apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=15%3B87&filter=default&site=stackoverflow&run=true
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=19&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Random Integer : 0
+NumberOfIDs :2
+Random Integer : 65
+searchIDs :ids=65
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=65&filter=default&site=stackoverflow&run=true
 Actual StatusCode   : 200
 Expected StatusCode : 200
 -------------------------------------------------------------------
