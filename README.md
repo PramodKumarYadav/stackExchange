@@ -29,4 +29,6 @@ NOTE:
 I use the inbuilt function in intelliJ to add a GIT repository for version control using (VCS -.GIT.). Once done, I push the changes to remote using command line to my github repository (https://github.com/PramodKumarYadav/Ohpen/)
 
 # CI Integration!
-Since all the tests are created in Maven and all classes are named with Test in them, we can run the tests from command line using Maven - Test. 
+Since all the tests are created in Maven and all classes are named with Test in them, we can run the tests from command line using 
+cd D:/Ohpen
+mvn clean test. 
