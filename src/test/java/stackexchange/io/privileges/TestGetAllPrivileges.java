@@ -2,7 +2,6 @@ package stackexchange.io.privileges;
 
 import domainentitites.PrivilegesMethods;
 import generalmethods.AssertResponse;
-import generalmethods.ParseJSON;
 import io.restassured.response.Response;
 import org.junit.Test;
 

@@ -1,13 +1,12 @@
 package generalmethods;
 
-import TestData.CreatePetRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import projectconfiguration.TestEnvironment;
 
 public class PostRequest {
     TestEnvironment testEnv = new TestEnvironment();
-    CreatePetRequest createPetRequest = new CreatePetRequest();
+//    CreatePetRequest createPetRequest = new CreatePetRequest();
 
     public Response canPostRequestUsingBody(String  endPoint , String requestBody, String contentType ) {
         String swaggerURL  =  testEnv.getBaseURL();
