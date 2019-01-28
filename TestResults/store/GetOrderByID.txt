@@ -1,0 +1,48 @@
+swaggerURL : https://petstore.swagger.io/v2
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/C:/Users/Pramod%20Yadav/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Actual StatusCode   : 404
+Expected StatusCode : 404
+-------------------------------------------------------------------
+swaggerURL : https://petstore.swagger.io/v2
+Actual StatusCode   : 404
+Expected StatusCode : 404
+-------------------------------------------------------------------
+swaggerURL : https://petstore.swagger.io/v2
+Actual StatusCode   : 405
+Expected StatusCode : 405
+-------------------------------------------------------------------
+Random Integer : 2
+delivered 
+Random Integer : 1
+true
+Random Integer : 6
+Random Integer : 21
+Random Integer : 6
+swaggerURL : https://petstore.swagger.io/v2
+apiURL :https://petstore.swagger.io/v2/store/order
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Search using  id : 6
+swaggerURL : https://petstore.swagger.io/v2
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+swaggerURL : https://petstore.swagger.io/v2
+Actual StatusCode   : 404
+Expected StatusCode : 404
+-------------------------------------------------------------------
+swaggerURL : https://petstore.swagger.io/v2
+apiURL :https://petstore.swagger.io/v2/store/order
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Search using  id : 11
+swaggerURL : https://petstore.swagger.io/v2
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
