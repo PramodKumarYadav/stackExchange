@@ -1,18 +1,21 @@
-# petstoreSwagger
+# stackExchange
 
-I built a simple yet robust framework in Java to test a RestWebservice using petstoreSwagger test application and RestAssured library in IntelliJ. With this project, I share that framework with you.
+This is a four hour project for stackExchange API. I build the framework for REST API using RestAssured in IntelliJ - Java using Maven. I used Junit for assertions.
 
-# Website : https://petstore.swagger.io/
+# Website : https://api.stackexchange.com/docs
 Project itself is build using Maven in IntelliJ.
 
 # FRAMEWORK :
 In the framework, the key components are:
 
 # PROJECT CONFIGURATION:
-Keep a test environment class to maintain project configuration. Note: You dont need it here since you have access to only one version of petstoreSwagger (The production version) but in a real life project, you would want to use the same framework to test in System Test environment, Chain test environment and say pre-production environment (or more). Thus its a good practicse to store your project variables and endpoint urls at one place for each test env to keep the framework flexible enough to work in all test enviroments and avoid hardcodig in classes (say in ST, Chain test, pre prod).
+Keep a test environment class to maintain project configuration. Note: You dont need it here since you have access to only one version of stackexchange.com (The production version) but in a real life project, you would want to use the same framework to test in System Test environment, Chain test environment and say pre-production environment (or more). Thus I store all the endpoints at one place for each test env to keep the framework flexible enough to work in all test enviroments and avoid hardcodig in classes (say in ST, Chain test, pre prod).
 
-# TEST DATABASE:
-Generally, when I am working on a project, I have access to the test environment database. I create my expected results based on this test environment, which is also used by the real application under test. Since I didnt had access to swapi's database, I created a class that will create some sample requests and create my expected results from them. In a real life project, I would later replace this with the actual database connection. For now, this helps me create more flexible and robust general domain functions that I will use for my testing. The form of funtion would also make it easier for me to migrate with minimum changes (if i have access to the real datbase in a project). Also it seperates my test data from script, making my fucntions really mainteable and powerful. Also in future if petstoreSwagger adds, tons of other information, or udpate it with new information, my scripts would need not changes much.
+# Data driven tests
+Generally, when I work with Soap requests, I create test requests using a stubbing tool. Here due to time crunch, I used a randaom number generator to create data driven tests under src -> test -> comments -> TestGetCommentsByIDs class. Both methods are very basic examples for data driven test for search with single ID and multiple ID. In real production project, I will most probably, come up with another approach. 
+
+# Building Expected Results:
+I like to do more tests than simply assert responses as OK, not OK. I like to validate the body of the response as well. In past for Soap reqests I used functional specifications to do this. For Rest, I would build a function or Json schema validation as mentioned in : https://www.baeldung.com/rest-assured-json-schema . For now since my time is running up, I am leaving this part only as explaination. 
 
 # TEST EXECUTION:
 For this, 
@@ -21,7 +24,7 @@ For this,
 
 # TEST REPORT :
 I use the inbuilt test reports options in IntelliJ to generate my log results into txt file. I do this using Run -> Edit Configuration -> Select "Configuraiton" at Class level (or at method level), give a name of file and location under "Logs" section.
-All reports can be found at -> D:\petstoreSwagger\TestResults
+All reports are then generated at -> D:\petstoreSwagger\TestResults 
 
 # VERSION CONTROL :
 I use the inbuilt function in intelliJ to add a GIT repository for version control using (VCS -.GIT.). Once done, I push the changes to remote using command line to my github repository (https://github.com/PramodKumarYadav/petstoreSwagger/)
