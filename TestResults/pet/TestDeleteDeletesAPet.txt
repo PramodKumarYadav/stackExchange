@@ -39,7 +39,7 @@ java.lang.AssertionError:
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
 	at generalmethods.AssertResponse.canAssertResponseStatus(AssertResponse.java:15)
-	at petstore.swagger.io.pet.TestDeleteDeletesAPet.tryDeleteingInvalidPetID(TestDeleteDeletesAPet.java:45)
+	at petstore.swagger.io.pet.TestGetAllBadgesOnSite.tryDeleteingInvalidPetID(TestDeleteDeletesAPet.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
