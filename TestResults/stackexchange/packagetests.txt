@@ -1,0 +1,63 @@
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/badges#order=desc&sort=rank&filter=default&site=stackoverflow&run=true
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/C:/Users/Pramod%20Yadav/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/badges-by-ids#order=desc&sort=rank&ids=1&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/badges-by-ids#order=desc&sort=rank&ids=1%3B2&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments#order=desc&sort=creation&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Random Integer : 3
+NumberOfIDs :4
+Random Integer : 96
+searchIDs :ids=96
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=96&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Random Integer : 67
+searchIDs :ids=67
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=67&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Random Integer : 52
+searchIDs :ids=52
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=52&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+Random Integer : 1
+NumberOfIDs :3
+Random Integer : 15
+Random Integer : 87
+searchIDs :ids=15%3B87
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/comments-by-ids#order=desc&sort=creation&ids=15%3B87&filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
+stackExchangeURL : https://api.stackexchange.com/docs
+apiURL :https://api.stackexchange.com/docs/privileges#filter=default&site=stackoverflow&run=true
+Actual StatusCode   : 200
+Expected StatusCode : 200
+-------------------------------------------------------------------
