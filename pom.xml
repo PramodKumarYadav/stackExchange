@@ -34,13 +34,6 @@
             <version>3.2.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.rest-assured.examples/rest-assured-itest-java -->
-        <dependency>
-            <groupId>io.rest-assured.examples</groupId>
-            <artifactId>rest-assured-itest-java</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-
         <!-- JSOUP -->
         <dependency>
             <!-- jsoup HTML parser library @ http://jsoup.org/ -->

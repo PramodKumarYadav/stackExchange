@@ -59,5 +59,6 @@ public class TestGetCommentsByIDs {
         System.out.println("searchIDs :" + searchIDs);
         Response responseGet = commentsMethods.getFindCommentsByIDs("comments-by-ids","order=desc&sort=creation&" + searchIDs + "&filter=default&site=stackoverflow&run=true");
         assertResponse.canAssertResponseStatus(200,responseGet.getStatusCode());
+
     }
 }
